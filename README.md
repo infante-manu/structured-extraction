@@ -1,4 +1,4 @@
-# Documentación del Proyecto: **Entregable-2**
+# Documentación del Proyecto:
 
 ## Descripción General
 
@@ -11,13 +11,13 @@ Este proyecto tiene como objetivo desarrollar una herramienta de extracción de 
 1. **Recrear el entorno con Conda:**
    - Crea un nuevo entorno con Conda para asegurar que todas las dependencias necesarias estén instaladas:
      ```bash
-     conda create --name entregable-2 python=3.x
+     conda create --name structured-extraction python=3.x
      ```
      (Reemplaza `3.x` por la versión de Python que prefieras).
 
    - Activa el entorno:ˆ`
      ```bash
-     conda activate entregable-2
+     conda activate structured-extraction
      ```
 
 2. **Instalar las dependencias:**
@@ -52,7 +52,7 @@ entregable-2/
 ├── data/              # Datos de ejemplo
 │
 ├── notebooks/
-│   ├── entregable-2.ipynb ## Notebook Entregable
+│   ├── extractor.ipynb ## Notebook Entregable
 ```
 
 ---
@@ -108,4 +108,3 @@ Se pueden agregar mejoras como el soporte para otros tipos de documentos y una m
 
 1. [Introduction to Structured Data Extraction](https://docs.llamaindex.ai/en/stable/understanding/extraction/)
 2. [Extracting Structured JSON from Credit Card Statements with Langchain and Pydantic](https://github.com/Zipstack/structured-extraction/tree/main?tab=readme-ov-file)
-3. [ChatGPT conversation](https://chatgpt.com/share/675d9fb3-77e8-800b-bb73-c1ea0f19646b)
